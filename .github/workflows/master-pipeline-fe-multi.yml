@@ -183,7 +183,6 @@ jobs:
     uses: ImplementSprint/Central-Template/.github/workflows/versioning.yml@main
     with:
       mode: test
-      update-package-locks: true
 
   deploy-test:
     name: "TEST — ${{ matrix.system.name }}"
